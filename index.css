@@ -14,8 +14,7 @@ h2, h3, h4, h5, h6 {
   font-family: 'Gaegu', cursive;
   margin-bottom: 0;
   padding: 0 10px;
-  /*=======  Font size'ı 30px yapın*/
-  font-size: 10px;
+  font-size: 30px;
 }
 
 /*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:
@@ -27,12 +26,25 @@ line-height: 1.4;
 
 */
 
-
+p {
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
 /*======= Sayfadaki TÜM imajlar için aşağıdaki özellikleri içeren bir selector yaratın:
 
   border-radius: 10px;
 
 */
+
+img {
+  border-radius: 10px;
+}
+
+.banner {
+  width: 750px;
+}
 
 .content-row {
   display: flex;
@@ -45,6 +57,7 @@ line-height: 1.4;
 .container {
   /*======= width property yaratın. Değerini 750px olarak atayın */
   margin: 0 auto;
+  width: 750px;
 }
 
 .container header nav a {
