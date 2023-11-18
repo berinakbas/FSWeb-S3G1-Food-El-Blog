@@ -50,6 +50,10 @@ img {
   display: flex;
 }
 
+.yemek {
+  width: 300px;
+}
+
 .content-row div {
   /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
 }
